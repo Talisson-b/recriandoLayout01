@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  /* background: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: sans-serif;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 626px;
+  width: 100%;
+  text-align: center;
+  margin-top: 64px;
+}
+
+h1 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+h1 span {
+  color: #ee24ff;
+  font-weight: bold;
+}
+
+.content {
+  max-width: 540px;
+}
+
+.content p:first-child {
+  margin-bottom: 1rem;
+}
+
+.content p:last-child {
+  margin-top: 2rem;
+}
+
+p {
+  color: #828282;
+  font-size: 15px;
+  line-height: 22px;
+  font-family: "Open Sans", sans-serif;
+}
+
+p strong {
+  color: #3f3d56;
+}
+
+.footer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .links a {
+  font-family: "Open Sans", sans-serif;
+  color: #3f3d56;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 1.47;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #000;
+  display: inline;
+  margin-right: 1rem;
+}
+
+.footer img {
+  max-width: 100%;
+}
